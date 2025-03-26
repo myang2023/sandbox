@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  /* color: var(--foreground);
+  background: var(--background); */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@layer base {
+  :root {
+    --color-light: #f1f5f9;
+    /*slate-100*/
+    --color-medium: #94a3b8;
+    /*slate-400*/
+    --color-base: #0f172a;
+    /*slate-900*/
+  }
+}
+
+.theme-default {
+  --color-light: #f1f5f9;
+  /*slate-100*/
+  --color-medium: #94a3b8;
+  /*slate-400*/
+  --color-base: #0f172a;
+  /*slate-900*/
+}
+
+.theme-night {
+  --color-light: #f1f5f9;
+  /*slate-100*/
+  --color-medium: #94a3b8;
+  /*slate-400*/
+  --color-base: #0f172a;
+  /*slate-900*/
+}
+
+.theme-plant {
+  --color-light: #dcfce7;
+  /*green-100*/
+  --color-medium: #22c55e;
+  /*green-400*/
+  --color-base: #713f12;
+  /*yellow-900*/
+}
+
+.theme-beach {
+  --color-light: #e0f2fe;
+  /*sky-100*/
+  --color-medium: #38bdf8;
+  /*sky-400*/
+  --color-base: #f59e0b;
+  /*amber-500*/
+}
